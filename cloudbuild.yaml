@@ -33,7 +33,7 @@ steps:
 #
 # Build the project
 #
-- name: 'gcr.io/$PROJECT_ID/android:28-ndk-r17b'
+- name: 'gcr.io/$PROJECT_ID/android:29-ndk-r17b'
   id: build
   args: ["./gradlew", "assembleDebug"]
   env:
