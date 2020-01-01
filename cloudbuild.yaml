@@ -75,7 +75,14 @@ steps:
   - name: 'build_cache'
     path: '/build_cache'
 
-options:
-    machineType: 'N1_HIGHCPU_32'
+#
+# Option
+#
+
+# Specify GCB machine type
+# May incur charge https://cloud.google.com/cloud-build/pricing
+#options:
+# https://cloud.google.com/cloud-build/docs/api/reference/rest/Shared.Types/MachineType
+#   machineType: 'UNSPECIFIED'  
 
 timeout: 1800s
